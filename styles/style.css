@@ -1,0 +1,113 @@
+html, body{
+    height: 100%;
+    font-family: 'Space Mono', monospace;
+}
+.banner {
+    background-image: url('../images/banner.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.nav  {
+    z-index: -2;
+    background-color: #D9D6DC;
+}
+ul li {
+    text-decoration: none;
+    display: inline;
+    margin-left: 0;
+    margin-right: 10px;
+    font-size: 16pt;
+}
+.banner-text{
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+}
+.btn-outline-info {
+    border-color: black;
+    color: black;
+    font-family: 'Space Mono', monospace;
+    margin-top: 15%;
+    margin-left: 50%;
+}
+.btn-outline-primary, .btn-outline-primary:hover {
+    position: absolute;
+    top: 75%;
+    left: 45%;
+    font-size: 18px;
+    border-color: black;
+    color: black;
+    font-family: 'Space Mono', monospace;
+}
+.btn-outline-primary:hover{
+    background: transparent;
+}
+.highlight{
+    background-color: black;
+    opacity: .7;
+}
+.glyphicon {
+    z-index: -1;
+}
+.about, .contact {
+    background-color: #F1EEF1;
+    height: 100%;
+    font-size: 50px;
+    text-align: center;
+}
+#about {
+    margin-top: 200px;
+}
+.projects {
+    background-color: #D9D6DC;
+    height: 100%;
+}
+.project1{
+    background-image: url('../images/project1.jpeg');
+}
+.project2{
+    background-image: url('../images/project2.jpeg');
+}
+.project3{
+    background-image: url('../images/project3.jpeg');
+}
+.project4{
+    background-image: url('../images/project4.jpg');
+}
+.project1, .project2, .project3, .project4 {
+    border: 1px black solid;
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+}
+.project1:hover, .project2:hover, .project3:hover, .project4:hover {
+    filter: grayscale(100%);
+    background-image: url('../images/overlay.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.col-md-6{
+    margin-bottom: 10px;
+}
+#about-btn{
+    display: none;
+}
+#project-btn{
+    position: relative;
+}
+.contact-icons{
+    margin-top: 300px;
+    font-size: 100px;
+}
+.fa {
+    color: black;
+}
